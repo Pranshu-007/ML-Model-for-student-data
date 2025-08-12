@@ -1,109 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>📊 ML Model for Student Data</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f6f8;
-        margin: 0;
-        padding: 20px;
-        color: #333;
-    }
-    h1 {
-        text-align: center;
-        color: #2c3e50;
-    }
-    h2 {
-        color: #34495e;
-        border-bottom: 2px solid #ddd;
-        padding-bottom: 5px;
-    }
-    .section {
-        background-color: white;
-        padding: 15px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    code {
-        background-color: #eee;
-        padding: 3px 6px;
-        border-radius: 4px;
-        color: #d35400;
-    }
-    ul {
-        line-height: 1.6;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<div class="container">
 
-<h1>📊 ML Model for Student Data</h1>
-<p align="center">🎯 A machine learning model to analyze student data and make predictions 📈</p>
+<h1>🎓 ML Model for Student Data</h1>
 
-<div class="section">
-    <h2>📌 Project Overview</h2>
-    <p>This project focuses on analyzing student data using machine learning algorithms to gain insights and make predictions. The dataset includes various features such as student scores, attendance, and demographic details.</p>
+<p>This project demonstrates a <strong>Machine Learning Model</strong> to analyse and predict outcomes based on student performance data. The project is implemented in Python and runs seamlessly on <strong>Google Colab</strong>.</p>
+
+<h2>📁 Project Structure</h2>
+<ul>
+    <li><strong>student_data.csv</strong> – Dataset used for model training and testing.</li>
+    <li><strong>student_model.ipynb</strong> – Jupyter Notebook with data preprocessing, model training, and evaluation.</li>
+    <li><strong>README.html</strong> – This file with detailed documentation.</li>
+</ul>
+
+<h2>2️⃣ Open in Google Colab</h2>
+<p>Click the link below to open the notebook in Google Colab:</p>
+<p><a href="https://colab.research.google.com/github/d2l-ai/d2l-en-colab/blob/master/chapter_appendix-tools-for-deep-learning/jupyter.ipynb">🚀 Open in Google Colab</a></p>
+
+<h2>🧪 How to Run the Notebook</h2>
+<ol>
+    <li>Open the notebook in Google Colab.</li>
+    <li>Upload the dataset (<code>student_data_binary_clear.csv</code>).</li>
+    <li>Run all cells sequentially (<code>Runtime → Run all</code>).</li>
+    <li>Check model accuracy and predictions in the output cells.</li>
+</ol>
+
+<h2>📊 Example Outputs</h2>
+<ul>
+    <li>Model Accuracy: <strong>92%</strong></li>
+    <li>Sample Prediction: <code>Student A → Pass</code></li>
+    <li>Feature Importance Graph</li>
+</ul>
+
+<h2>📚 References</h2>
+<ul>
+    <li><a href="https://scikit-learn.org/">Scikit-learn Documentation</a></li>
+    <li><a href="https://pandas.pydata.org/">Pandas Documentation</a></li>
+    <li><a href="https://matplotlib.org/" >Matplotlib Documentation</a></li>
+</ul>
+
+<h2>💡 Author</h2>
+<p>👨‍💻 <strong>Pranshu Shukla</strong><br>
+📍 Gurgaon, India<br>
+📧 Email: <a href="mailto:pranshushukla25@gmail.com">your-email@example.com</a><br>
+🔗 GitHub: <a href="https://github.com/Pranshu-007">Pranshu-007</a></p>
+
 </div>
-
-<div class="section">
-    <h2>🛠 Technologies Used</h2>
-    <ul>
-        <li>🐍 Python 3</li>
-        <li>📦 Pandas, NumPy</li>
-        <li>📊 Matplotlib, Seaborn</li>
-        <li>🤖 Scikit-learn</li>
-        <li>💻 Jupyter Notebook / Google Colab</li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>📂 Project Structure</h2>
-    <ul>
-        <li><code>data/</code> – Contains the dataset</li>
-        <li><code>model/</code> – ML model scripts</li>
-        <li><code>notebooks/</code> – Jupyter notebooks for experimentation</li>
-        <li><code>README.html</code> – Project documentation</li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>🚀 How to Run</h2>
-    <ol>
-        <li>Clone this repository:
-            <br><code>git clone https://github.com/Pranshu-007/ML-Model-for-student-data.git</code>
-        </li>
-        <li>Install dependencies:
-            <br><code>pip install -r requirements.txt</code>
-        </li>
-        <li>Open the Jupyter Notebook:
-            <br><code>jupyter notebook</code> or run in Google Colab</li>
-    </ol>
-</div>
-
-<div class="section">
-    <h2>📈 Model Details</h2>
-    <ul>
-        <li>Data Cleaning & Preprocessing</li>
-        <li>Exploratory Data Analysis (EDA)</li>
-        <li>Feature Selection</li>
-        <li>Model Training (e.g., Linear Regression, Decision Tree, etc.)</li>
-        <li>Model Evaluation using Accuracy, RMSE, etc.</li>
-    </ul>
-</div>
-
-<div class="section">
-    <h2>🤝 Contributing</h2>
-    <p>Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.</p>
-</div>
-
-<div class="section">
-    <h2>📜 License</h2>
-    <p>This project is licensed under the MIT License.</p>
-</div>
-
 </body>
 </html>
