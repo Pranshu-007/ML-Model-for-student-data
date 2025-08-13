@@ -47,7 +47,7 @@
 <h2>💡 Author</h2>
 <p>👨‍💻 <strong>Pranshu Shukla</strong><br>
 📍 Gurgaon, India<br>
-📧 Email: <a href="mailto:pranshushukla25@gmail.com">your-email@example.com</a><br>
+📧 Email: <a href="mailto:pranshushukla25@gmail.com">pranshushukla25@gmail.com</a><br>
 🔗 GitHub: <a href="https://github.com/Pranshu-007">Pranshu-007</a></p>
 
 </div>
